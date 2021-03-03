@@ -1,11 +1,13 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="jokes.css">
-    <title><?=$title?></title>
-  </head>
-  <body>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="jokes.css">
+  <title><?= $title ?></title>
+</head>
+
+<body>
   <nav>
     <header>
       <h1>Internet Joke Database</h1>
@@ -18,11 +20,12 @@
   </nav>
 
   <main>
-  <?=$output?>
+    <?= $output ?>
   </main>
 
   <footer>
-  &copy; IJDB 2017
+    &copy; Covid Time 2021
   </footer>
-  </body>
+</body>
+
 </html>
